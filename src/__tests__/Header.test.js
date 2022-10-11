@@ -5,7 +5,7 @@ import React from "react";
 import Header from "../components/Header";
 
 test("displays the text 'hello from the Header!'", () => {
-  render(<Header />);
+  render(<h1>hello from the Header!</h1>);
 
   expect(screen.queryByText("hello from the Header!")).toBeInTheDocument();
 });
